@@ -1,3 +1,4 @@
+log/
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -10,3 +11,59 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+
+*.pyc
+*.pyo
+*.py~
+*.py.bak
+old.*
+.*
+*.patch
+*.diff
+*.orig
+*.swp
+*.out
+ext/*
+/exp/
+/experiments/
+/pox/
+/betta/
+/betta
+/pox
+pox/lib/pxpcap/pxpcap_c/build
+pox/lib/pxpcap/pxpcap_c/WpdPack
+pypy/
+config/20*.py
+config/*final.py
+input_traces/20*.trace
+input_traces/20*.trace.unacked
+input_traces/*final.trace
+input_traces/20*.final.unacked
+dataplane_traces/20*.trace
+runtime_stats/*json
+runtime_stats/*pdf
+runtime_stats/*gpi
+runtime_stats/*dat
+docs/_build/doctrees/*
+documentation/*
+documentation
+
+# Controllers
+nox/
+nox_classic/
+floodlight/
+carp/
+betta/
+
+# ignore eclipse project files
+.pydevproject
+.project
+
+# ignore ctags file
+tags
+
+# ignore  mcs log
+mcs_log.txt
+
+# ignore software version update timestamp
+sts/last-version-check
